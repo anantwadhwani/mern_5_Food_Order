@@ -1,0 +1,53 @@
+/* custom variables */
+@import "./variables.css";
+
+/* base font and layout reset */
+html {
+  font-size: 100%; /* 1rem = 10px (easy math) */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* margins for headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+/* Smooth transitions for buttons, links, etc. */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* Remove list styles and padding */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Remove blue highlights on mobile tap */
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Tailwind overrides */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
