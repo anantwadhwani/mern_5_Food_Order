@@ -5,7 +5,7 @@ A modern, responsive frontend for the fictional **Omnifood** service, built with
 ---
 
 ## Live Website
-https://mern5foodordering.netlify.app/#testimonials
+https://mern5foodordering.netlify.app/
 
 ---
 
